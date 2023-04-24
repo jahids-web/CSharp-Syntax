@@ -29,6 +29,7 @@ namespace Arrays
                     }
                 }
             }
+
             Console.WriteLine("\n");
             Console.WriteLine("Element of array in sorted ascnding order: ");
             for(var element = 0; element <  input; element++)
@@ -36,7 +37,9 @@ namespace Arrays
                 Console.Write($"{array[element]}");
 
             }
+
             Console.WriteLine("\n\n");
         }
     }
 }
+
