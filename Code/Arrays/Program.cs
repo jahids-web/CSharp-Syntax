@@ -38,7 +38,7 @@ namespace Arrays
 
             }
 
-            Console.WriteLine("\n\n");
+            ////Console.WriteLine("\n\n");
         }
     }
 }
