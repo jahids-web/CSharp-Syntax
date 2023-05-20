@@ -31,10 +31,10 @@ namespace Arrays
             }
 
             Console.WriteLine("\n");
-            Console.WriteLine("Element of array in sorted ascnding order: ");
+            Console.Write("Element of array in sorted ascnding order: ");
             for(var element = 0; element <  input; element++)
             {
-                Console.Write($"{array[element]}");
+                Console.Write($"\n {array[element]}");
 
             }
 
