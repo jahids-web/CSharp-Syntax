@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace AbstractClass
 {
-    public class Bike
+    public class Bike : Vehicles
     {
+        public override void ApplyDiscount()
+        {
+            Console.WriteLine($"Discount Price { (Price - 5)}");
+        }
     }
 }
